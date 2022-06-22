@@ -34,6 +34,10 @@ public class PowerupManagerEV : MonoBehaviour
                 {
                     AddPowerupUI(i, p.powerupTexture);
                 }
+                else
+                {
+                    RemovePowerupUI(i);
+                }
             }
         }
     }
